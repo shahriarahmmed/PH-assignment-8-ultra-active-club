@@ -1,0 +1,20 @@
+.activity {
+    background-color: rgb(245, 245, 245);
+}
+.activity img {
+    height: 286px;
+    width: 286px;
+}
+
+.add-btn {
+    border: none;
+    color: azure;
+    font-size: 15px;
+    background-color: rgb(47, 167, 237);
+    padding: 10px 32px;
+    border-radius: 5px;
+    text-align: center;
+}
+.add-btn:hover {
+    background-color:  rgb(21, 158, 232);
+}
