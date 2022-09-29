@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "name": "Windmills", 
+        "img": "https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2022/08/04135037/windmill-exercise-960-715x358.png",
+        "time": 30
+    },
+    {
+        "id": "02",
+        "name": "Floor Abducation", 
+        "img": " https://fitnessdrum.com/wp-content/uploads/2021/12/banded-hip-abductions-min.png",
+        "time": 20
+    },
+    {
+        "id": "03",
+        "name": "Bycycle Crunch", 
+        "img": "https://images.squarespace-cdn.com/content/v1/585b5da2b8a79bc5100edbe1/1485365393123-NIL2IZWF0ALYES6WTATX/image-asset.jpeg?format=750w",
+        "time": 40
+    },
+    {
+        "id": "04",
+        "name": "Butt Ups", 
+        "img": "https://fitnessvolt.com/wp-content/uploads/2021/09/Butt-Ups-Exercise-750x422.jpg",
+        "time": 30
+    },
+    {
+        "id": "05",
+        "name": "Crunch Arms Cross", 
+        "img": "https://fitnessvolt.com/wp-content/uploads/2020/10/cross-body-crunch-750x393.jpg",
+        "time": 50
+    },
+    {
+        "id": "06",
+        "name": "Dumbbell Push Crunch", 
+        "img": "https://hips.hearstapps.com/hmg-prod/images/seesaw-chest-press-1657290731.jpeg?crop=0.84375xw:1xh;center,top&resize=640:*",
+        "time": 40
+    }
+]
