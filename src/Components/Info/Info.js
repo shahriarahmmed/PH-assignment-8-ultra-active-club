@@ -23,7 +23,7 @@ const Info = (props) => {
                     <button>50s</button>
                 </div>
             </div>
-            <div>
+            <div className='exercise-detail'>
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <h4>Exercise time</h4>

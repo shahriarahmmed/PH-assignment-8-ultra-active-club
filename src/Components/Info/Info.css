@@ -1,6 +1,6 @@
 .info {
     background-color: rgb(245, 248, 250);
-    position: sticky;
+    
 }
 h2 {
     color: rgb(17, 124, 200);
@@ -15,7 +15,7 @@ img {
     text-align: center;
 }
 .break{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -35,6 +35,10 @@ button {
 }
 button:hover {
     background-color: rgb(143, 88, 244);
+}
+.exercise-detail{
+    margin-top: 40px;
+    text-align: center;
 }
 .exercise-time{
     background-color: rgb(217, 222, 226);
