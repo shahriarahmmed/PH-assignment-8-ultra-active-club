@@ -1,6 +1,7 @@
 .info {
     background-color: rgb(245, 248, 250);
-    
+    position: sticky;
+    top: 0;
 }
 h2 {
     color: rgb(17, 124, 200);
@@ -29,6 +30,7 @@ img {
 button {
     color: white;
     background-color: rgb(102, 45, 207);
+    margin: 10px;
     padding: 10px;
     border: 0px solid;
     border-radius: 50px;

@@ -1,8 +1,11 @@
 import React from 'react';
 import './Info.css'
 const Info = (props) => {
-    console.log(props)
+    
     // const {name, image} = props.info;
+    const breakTimes = () => {
+        console.log('click')
+    }
     return (
         <div className='info'>
             
@@ -16,11 +19,11 @@ const Info = (props) => {
             <div className='break'>
                 <h3>Add Break time</h3>
                 <div className='break-time-btn'>
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
+                    <button onClick={breakTimes}>10s</button>
+                    <button onClick={breakTimes}>20s</button>
+                    <button onClick={breakTimes}>30s</button>
+                    <button onClick={breakTimes}>40s</button>
+                    <button onClick={breakTimes}>50s</button>
                 </div>
             </div>
             <div className='exercise-detail'>
