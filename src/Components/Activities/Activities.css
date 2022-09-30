@@ -1,6 +1,12 @@
 .activites {
     background-color: rgb(226, 241, 255);
     padding: 50px;
+    
+}
+.items {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    
 }
 .header {
     margin: 20px;

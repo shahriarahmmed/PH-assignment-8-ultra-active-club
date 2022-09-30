@@ -1,9 +1,16 @@
 .activity {
-    background-color: rgb(245, 245, 245);
+    background-color: azure;
+    border: 3px solid rgb(231, 228, 228);
+    border-radius: 5px;
+    margin: 10px;
 }
 .activity img {
     height: 286px;
     width: 286px;
+}
+
+h3, p, button {
+    margin: 5px;
 }
 
 .add-btn {

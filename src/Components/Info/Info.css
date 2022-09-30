@@ -1,3 +1,54 @@
 .info {
     background-color: rgb(245, 248, 250);
+    position: sticky;
+}
+h2 {
+    color: rgb(17, 124, 200);
+    margin: 20px;
+    text-align: center;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+.trainer-info{
+    text-align: center;
+}
+.break{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.break-time-btn{
+    background-color: rgb(217, 222, 226);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: rgb(102, 45, 207);
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 50px;
+}
+button:hover {
+    background-color: rgb(143, 88, 244);
+}
+.exercise-time{
+    background-color: rgb(217, 222, 226);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.break-time{
+    background-color: rgb(217, 222, 226);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
 }

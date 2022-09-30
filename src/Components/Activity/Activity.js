@@ -6,8 +6,8 @@ const Activity = (props) => {
     return (
         <div className='activity'>
             <img src={img} alt="" />
-            <h3>Exercise: {name}</h3>
-            <p>Time Required: {time}</p>
+            <h3><span>Exercise: {name}</span></h3>
+            <p><span>Time Required: {time}s</span></p>
             <button className='add-btn'>Add to list</button>
         </div>
     );

@@ -15,8 +15,9 @@ const Activities = () => {
         <div className='activites'>
             <div className="header">
                 <h1>Personal Fitness Coach</h1>
+                <h3>Select your exercise</h3>
             </div>
-            <div>
+            <div className='items'>
             {
                 activites.map(activity => <Activity
                 key={activity.id}
