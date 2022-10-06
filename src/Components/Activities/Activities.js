@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Activity from '../Activity/Activity';
 import "./Activities.css"
+import '../Info/Info'
 
 
 const Activities = () => {
@@ -14,8 +15,8 @@ const Activities = () => {
     }, [])
 
     const handleAddBtn = (activity) => {
-        console.log(activity);
-        const totalTime = [...time, activity]
+        console.log(activity.time);
+        const totalTime = [...time + activity.time]
         setTime(totalTime);
     }
 

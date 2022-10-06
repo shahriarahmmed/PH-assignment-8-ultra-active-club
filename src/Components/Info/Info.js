@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Info.css'
+import '../Activities/Activities'
 // import { ToastContainer, toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
 
@@ -7,6 +8,8 @@ const Info = (props) => {
 
     const [breckTime, setBreakTime] = useState(0);
     // const notify = () => toast('break time added!');
+
+    
     return (
         
         <div className='info'>
@@ -33,7 +36,7 @@ const Info = (props) => {
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <h4>Exercise time</h4>
-                    <h4>{time.length} mintue</h4>
+                    <h4>{} mintues</h4>
                 </div>
                 <div className='break-time'>
                     <h4>Break Time</h4>
