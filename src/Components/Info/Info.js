@@ -33,12 +33,13 @@ const Info = (props) => {
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <h4>Exercise time</h4>
-                    <h4>0 mintue</h4>
+                    <h4>{time.length} mintue</h4>
                 </div>
                 <div className='break-time'>
                     <h4>Break Time</h4>
                     <h4>{breckTime} second</h4>
                 </div>
+                <button>Activity complete</button>
             </div>
         </div>
     );

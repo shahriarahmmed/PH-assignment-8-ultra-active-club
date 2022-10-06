@@ -5,12 +5,20 @@ import "./Activities.css"
 
 const Activities = () => {
     const [activites, setActivites] = useState([]);
+    const [time, setTime] = useState([]);
 
     useEffect(() => {
         fetch('info.json')
             .then(res => res.json())
             .then(data => setActivites(data))
     }, [])
+
+    const handleAddBtn = (activity) => {
+        console.log(activity);
+        const totalTime = [...time, activity]
+        setTime(totalTime);
+    }
+
     return (
         <div className='activites'>
             <div className="header">
@@ -22,6 +30,7 @@ const Activities = () => {
                     activites.map(activity => <Activity
                         key={activity.id}
                         activity={activity}
+                        handleAddBtn={handleAddBtn}
                     ></Activity>)
                 }
             </div>
